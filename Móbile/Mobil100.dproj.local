@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/10 18:14:14.000.923,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/06 21:06:09.324,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/06 21:08:52.642,D:\Projetos\Mobile 100\Mobile\UntMain.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/06 21:08:52.643,D:\Projetos\Mobile 100\Mobile\UntMain.fmx=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/04/06 21:09:09.350,D:\Projetos\Mobile 100\Mobile\Mobil100.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/04/06 21:14:46.184,D:\Projetos\Mobile100G\Móbile\Mobil100.dproj=D:\Projetos\Mobile 100\Mobile\Mobil100.dproj</Transaction>
+    <Transaction>2020/04/06 21:15:02.038,D:\Projetos\Mobile100G\Móbile\UntMain.pas=D:\Projetos\Mobile 100\Mobile\UntMain.pas</Transaction>
+    <Transaction>2020/04/06 21:15:02.038,D:\Projetos\Mobile100G\Móbile\UntMain.fmx=D:\Projetos\Mobile 100\Mobile\UntMain.fmx</Transaction>
+    <Transaction>2020/04/06 21:20:04.321,=D:\Projetos\Mobile100G\Móbile\Unit2.pas</Transaction>
+    <Transaction>2020/04/06 21:24:13.628,D:\Projetos\Mobile100G\Móbile\UntBaseLista.pas=D:\Projetos\Mobile100G\Móbile\Unit2.pas</Transaction>
+    <Transaction>2020/04/06 21:24:13.628,D:\Projetos\Mobile100G\Móbile\UntBaseLista.fmx=D:\Projetos\Mobile100G\Móbile\Unit2.fmx</Transaction>
+    <Transaction>2020/04/06 21:25:24.614,=D:\Projetos\Mobile100G\Móbile\Unit1.pas</Transaction>
+    <Transaction>2020/04/06 21:26:20.570,D:\Projetos\Mobile100G\Móbile\UntDM.pas=D:\Projetos\Mobile100G\Móbile\Unit1.pas</Transaction>
+    <Transaction>2020/04/06 21:26:20.570,D:\Projetos\Mobile100G\Móbile\UntDM.dfm=D:\Projetos\Mobile100G\Móbile\Unit1.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

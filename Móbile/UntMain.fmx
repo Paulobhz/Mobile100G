@@ -338,4 +338,20 @@ object frmMain: TfrmMain
       end
     end
   end
+  object mtvMenu: TMultiView
+    Mode = Drawer
+    Size.Width = 250.000000000000000000
+    Size.Height = 570.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+    object Button1: TButton
+      Align = Top
+      Size.Width = 250.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Button1'
+    end
+  end
 end

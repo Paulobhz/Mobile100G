@@ -26,7 +26,8 @@ type
     ToolBar1: TToolBar;
     Rectangle1: TRectangle;
     lytGeral: TLayout;
-    SpeedButton1: TSpeedButton;
+    speBtnMenu: TSpeedButton;
+    lblTitulo: TLabel;
   private
     { Private declarations }
   public

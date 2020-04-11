@@ -19,8 +19,9 @@ uses
   FMX.Objects,
   FMX.TabControl,
   FMX.Layouts,
-  FMX.Edit
+  FMX.Edit,
 
+  Mobile100.Lib, FMX.MultiView
   ;
 
 type
@@ -56,6 +57,8 @@ type
     Rectangle3: TRectangle;
     Label3: TLabel;
     SpeedButton3: TSpeedButton;
+    mtvMenu: TMultiView;
+    Button1: TButton;
     procedure FormCreate(Sender: TObject);
     procedure sprBtnLoginClick(Sender: TObject);
   private
@@ -70,17 +73,24 @@ var
 implementation
 
 Uses
-  UntDM;
+  UntDM, UntCadClientes;
 {$R *.fmx}
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
     tbcMain.TabPosition := TTabPosition.None;
     tbcMain.ActiveTab   := tbiLogin;
+
+    TLibrary.ActiveForm := nil;
+    TLibrary.MainMenu   := mtvMenu;
+    TLibrary.LayoutMain := lytNavegacao;
+
+    mtvMenu.HideMaster;
 end;
 
 procedure TfrmMain.sprBtnLoginClick(Sender: TObject);
 begin
+    TLibrary.OpemForm(TFrmCadClientes,nil);
     tbcMain.Next;
 end;
 

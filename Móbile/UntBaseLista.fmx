@@ -26,7 +26,18 @@ object frmBaseLista: TfrmBaseLista
         Size.Height = 40.000000000000000000
         Size.PlatformDefault = False
       end
-      object SpeedButton1: TSpeedButton
+      object lblTitulo: TLabel
+        Align = Contents
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 380.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'T'#237'tulo'
+        TabOrder = 0
+      end
+      object speBtnMenu: TSpeedButton
         Align = Left
         StyledSettings = [Family, Size, Style]
         Size.Width = 80.000000000000000000

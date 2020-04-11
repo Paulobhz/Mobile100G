@@ -1,13 +1,16 @@
 object frmMain: TfrmMain
-  Left = 0
-  Top = 0
+  Left = 675
+  Top = 75
   Caption = 'Form1'
   ClientHeight = 570
   ClientWidth = 380
+  Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
+  Left = 675
+  Top = 75
   DesignerMasterStyle = 3
   object lytMain: TLayout
     Align = Contents
@@ -29,7 +32,7 @@ object frmMain: TfrmMain
       Size.Height = 570.000000000000000000
       Size.PlatformDefault = False
       TabHeight = 49.000000000000000000
-      TabIndex = 0
+      TabIndex = 1
       TabOrder = 0
       TabPosition = PlatformDefault
       Sizes = (
@@ -41,7 +44,7 @@ object frmMain: TfrmMain
         CustomIcon = <
           item
           end>
-        IsSelected = True
+        IsSelected = False
         Size.Width = 190.000000000000000000
         Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
@@ -171,6 +174,7 @@ object frmMain: TfrmMain
                 Size.Width = 312.000000000000000000
                 Size.Height = 48.000000000000000000
                 Size.PlatformDefault = False
+                OnClick = sprBtnLoginClick
               end
             end
           end
@@ -315,7 +319,7 @@ object frmMain: TfrmMain
         CustomIcon = <
           item
           end>
-        IsSelected = False
+        IsSelected = True
         Size.Width = 190.000000000000000000
         Size.Height = 49.000000000000000000
         Size.PlatformDefault = False

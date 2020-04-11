@@ -3,10 +3,25 @@ unit UntMain;
 interface
 
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.TabControl,
-  FMX.Layouts, FMX.Edit;
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
+  System.Variants,
+
+  FMX.Types,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Graphics,
+  FMX.Dialogs,
+  FMX.Controls.Presentation,
+  FMX.StdCtrls,
+  FMX.Objects,
+  FMX.TabControl,
+  FMX.Layouts,
+  FMX.Edit
+
+  ;
 
 type
   TfrmMain = class(TForm)
@@ -42,6 +57,7 @@ type
     Label3: TLabel;
     SpeedButton3: TSpeedButton;
     procedure FormCreate(Sender: TObject);
+    procedure sprBtnLoginClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -61,6 +77,11 @@ procedure TfrmMain.FormCreate(Sender: TObject);
 begin
     tbcMain.TabPosition := TTabPosition.None;
     tbcMain.ActiveTab   := tbiLogin;
+end;
+
+procedure TfrmMain.sprBtnLoginClick(Sender: TObject);
+begin
+    tbcMain.Next;
 end;
 
 end.

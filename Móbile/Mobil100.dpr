@@ -14,8 +14,6 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
-  Application.CreateForm(TfrmBaseLista, frmBaseLista);
   Application.CreateForm(TDM, DM);
-  Application.CreateForm(TfrmCadClientes, frmCadClientes);
   Application.Run;
 end.
